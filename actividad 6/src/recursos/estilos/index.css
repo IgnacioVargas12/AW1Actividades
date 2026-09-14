@@ -1,0 +1,13 @@
+/*Selectores genericos*/
+body{
+    background-color: #eeeeee;;
+}
+a{
+    color: #585858;
+    text-decoration: solid;
+}
+
+.encabezado-principal{
+    background-color: rgb(183, 208, 230);
+    border-bottom: 2px solid #000000;
+}
