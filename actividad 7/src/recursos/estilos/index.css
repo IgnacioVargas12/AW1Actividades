@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'GermaniaOne';
+    src: url('./fuentes/GermaniaOne-Regular.ttf');
+}
+
+html{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(203, 206, 168);
+}
+
+a {
+    color: rgb(255, 128, 0);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Contenido encabezado */
+.encabezado-principal {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(71, 36, 0);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.encabezado-principal img{
+    height: 100px;
+}
+
+.encabezado-principal h1 {
+    font-family: 'GermaniaOne', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.encabezado-principal nav a {
+    margin-right: 15px;
+}
+
+/* Contenido principal */
+.contenido-principal {
+    padding: 20px;
+}
+
+.contenido-principal h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contenido-principal img{
+    height: 750px;
+}
+
+.contenido-principal .contenedor-form{
+    padding: 5px 20px 5px 20px;
+}
+
+.contenido-principal .contenedor-form form{
+    display: flex;
+    flex-direction: column;
+}
+.contenido-principal .contenedor-form form select{
+    max-width: 300px
+
+}
+.contenido-principal .contenedor-form form input{
+    margin-bottom: 10px;
+    max-width: 300px
+}
+
+.contenedor-principal .contenedor-form form textarea{
+    width: 100%;
+    max-width: 500px;
+}
+
+.contenido-principal .contenedor-form form .boton-enviar{
+    background-color: #3b5f2e; 
+    color: #FFFFFF;             
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    width: 100px;
+}
+
+.contenido-principal .contenedor-form form .boton-limpiar{
+    background-color: #E2E8F0; 
+    color: #4A5568;             
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    width: 100px;
+}
+
+/* Contenido pie principal */
+.pie-pagina {
+    background-color: rgb(71, 36, 0);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.pie-pagina ul {
+    display: flex;
+    gap: 15px;
+}
