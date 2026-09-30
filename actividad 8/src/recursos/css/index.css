@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Sora';
+    src: url(./fuentes/Sora-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*Selectores de Tipo*/
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+h1 {
+  color: #1b3b22;
+}
+
+h2 {
+  color: #2d4a3e;
+}
+
+h3 {
+  color: #3d6452;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*Selectores de clase*/
+.botonreserva{ /*Clase para que el <a> tenga forma de boton*/
+    text-decoration: none;
+    color: #fff;
+    background-color: #1b3b22;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.precio {
+  margin: 16px 0;
+  color: #1b3b22; 
+}
+
+.precio .monto {
+  font-size: 1.35rem; 
+  font-weight: bold;  
+}
+
+.precio .detalle {
+  font-size: 0.9rem;
+  color: #555555; 
+  font-weight: normal;
+}
+
+
+/*Selectores de encabezado*/
+.contenido-encabezado{
+    /*position: sticky; en este caso, no lo utilizamos ya que la imagen es muy grande y el header ocupa una gran porcion de la pantalla */ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contenido-encabezado span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contenido-encabezado nav a{
+    text-decoration: none;
+    color: #333;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.contenido-encabezado nav li{
+    display: inline;
+    list-style: none;
+}
+
+/*Selectores de main*/
+.contenido-principal{
+    padding: 2rem;
+}
+
+.contenido-principal img{
+    max-width: 750px;
+    border-radius: 10px;
+    border-color: #ccc;
+}
+
+.contenido-principal .contenedor-form{
+    padding: 5px 20px 5px 20px;
+}
+
+.contenido-principal .contenedor-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-principal .contenedor-form form input{
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+.contenido-principal .contenedor-form form textarea{
+    margin-bottom: 10px;
+    max-width: 300px;
+    height: 150px;
+}
+
+.contenido-principal .contenedor-form form button{
+    max-width: 100px;
+    padding: 0.5rem 1rem;
+    background-color: #1b3b22;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Selectores de footer*/
+.contenido-pie{
+    background-color: #fff;
+    color: #000000;
+    text-align: center;
+    padding: 1rem;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiro Sustentable - Reservas</title>
+    <link rel="stylesheet" href="./recursos/css/index.css">
+
+</head>
+    <body>
+        <header class="contenido-encabezado">
+            <div>
+                <span> Retiro Sustentable</span>
+                <nav>
+                    <a href="index.html">
+                        <img src="./recursos/imagenes/logo-rs.svg" alt="Logo de Retiro Sustentable">
+                    </a>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="reservas.html">Catálogo</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="contenido-principal">
+            <h1>Reservas</h1>
+            <h2>Contactanos</h2>
+            <div class="contenedor-form">
+                <form action="./reservas.html" method="post">
+                    <label for="id-nombre">Nombre</label>
+                    <input type="text" name="nombre" id="id-nombre">
+
+                    <label for="id-telefono">Teléfono</label>
+                    <input type="tel" name="telefono" id="id-telefono">
+
+                    <label for="id-email">Email</label>
+                    <input type="email" name="email" id="id-email">
+
+                    <label for="id-desde">Desde</label>
+                    <input type="date" name="desde" id="id-desde">
+
+                    <label for="id-hasta">Hasta</label>
+                    <input type="date" name="hasta" id="id-hasta">
+
+                    <label for="id-comentario">Comentarios</label>
+                    <textarea name="comentario" id="id-comentario"></textarea>
+
+                    <button type="submit">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+        </main>
+        <footer class="contenido-pie">
+            <div>
+                <p>&copy; 2026 Retiro Sustentable. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </body>
+</html>
