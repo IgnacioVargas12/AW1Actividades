@@ -1,30 +1,30 @@
 //Actividad 1 Arreglos
 //Ejercicio A y B
-// const numeros = [];
-// console.log("Ejercicio A");
+const numeros = [];
+console.log("Ejercicio A");
 
-// for (let i = 0; i < 5; i++) {
-//     const elemento = prompt("Ingrese un número para agregar al arreglo:");
-//     if (elemento !== null && !isNaN(elemento) && elemento > 0 && elemento % 2 !== 0) {
-//         numeros.push(elemento);
-//     }
-//     else {
-//         console.log("Por favor, ingresa un número entero válido mayor a 0 e impar.");
-//         i--; // 
-//     }
-// }
+for (let i = 0; i < 5; i++) {
+    const elemento = prompt("Ingrese un número para agregar al arreglo:");
+    if (elemento !== null && !isNaN(elemento) && elemento > 0 && elemento % 2 !== 0) {
+        numeros.push(elemento);
+    }
+    else {
+        console.log("Por favor, ingresa un número entero válido mayor a 0 e impar.");
+        i--; // 
+    }
+}
 
-// numeros.forEach((numero)=>{
-//     console.log(numero)
-// })
+numeros.forEach((numero)=>{
+    console.log(numero)
+})
 
 //Ejercicio C
 console.log("Ejercicio C");
 const frutas = ["pera", "manzana", "banana", "durazno"];
 
-// frutas.forEach((fruta, indice) => {
-//     frutas[indice] = fruta.toUpperCase();
-// });
+frutas.forEach((fruta, indice) => {
+    frutas[indice] = fruta.toUpperCase();
+});
 
 console.log("Array de frutas en mayúsculas:", frutas);
 
